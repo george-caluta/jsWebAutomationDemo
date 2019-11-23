@@ -1,7 +1,6 @@
 pipeline {
     agent {
         docker {
-            image 'node:latest'
 	    label 'node'
             args  '-v /tmp:/tmp'
         }

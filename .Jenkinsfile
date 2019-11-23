@@ -1,6 +1,6 @@
 pipeline {
     agent {
-	    	label 'node'
+	    	label 'ubuntu18'
 		}
 				stages {
 						stage('Build') {

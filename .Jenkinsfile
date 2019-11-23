@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker {
             image 'node:latest'
-            label 'my-defined-label'
+            label 'docker-cloud'
             args  '-v /tmp:/tmp'
         }
 		}

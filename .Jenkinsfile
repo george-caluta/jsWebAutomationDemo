@@ -1,10 +1,6 @@
 pipeline {
     agent {
-        docker {
-	    	image 'bibinwilson/jenkins-slave'
 	    	label 'node'
-            args  '-v /tmp:/tmp'
-        }
 		}
 				stages {
 						stage('Build') {

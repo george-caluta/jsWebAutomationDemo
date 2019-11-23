@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        docker-cloud {
+        docker {
             image 'node:latest'
             label 'my-defined-label'
             args  '-v /tmp:/tmp'

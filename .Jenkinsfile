@@ -7,7 +7,7 @@ pipeline {
 								steps {
 										sh '''
 												echo 'Building..'
-												apt install npm -y
+												sudo apt install npm -y
 												npm run start
 												npm run test
 										'''
